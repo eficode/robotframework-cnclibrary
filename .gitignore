@@ -1,0 +1,8 @@
+.DS_Store
+output.xml
+report.html
+log.html
+*.pyc
+*-screenshot-*.png
+*\$py.class
+*.swp
