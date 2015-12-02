@@ -1,7 +1,7 @@
 CncLibrary
 ==========
 
-This is a Robot Framework library for driving a CNC milling machine. Idea here is that the mill is modified/built so that the cutter is replaced by a tool tip that can be used to touch physical device e.g. device with numpad. With this library you can move the tool tip to predefined locations and use it to press (buttons). This is useful for auomating acceptance testing for devices that can only be accessed physically. Library only contains keywords for driving the tool. Assertions needs to be done with some other way depending on the device under test e.g. camera+image recognition.
+This is a Robot Framework library for driving a CNC milling machine. Idea here is that the mill is modified/built so that the cutter is replaced by a tool tip that can be used to touch physical device e.g. device with numpad. With this library you can move the tool tip to predefined locations and use it to press (buttons). This is useful for automating acceptance testing for devices that can only be accessed physically. Library only contains keywords for driving the tool. Assertions needs to be done with some other way depending on the device under test e.g. camera+image recognition.
 
 In our case we used ShapeOko 2 CNC-milling machine controlled by Arduino based grbl motion controller connected to Raspberry Pi 2 with camera module. The device under test in example is iZettle payment terminal. 
 
@@ -21,7 +21,7 @@ If you have pip, installation is straightforward
 
 ::
 
-    $ pip install robotframework-cnclibrary
+    $ pip install CncLibrary
 
 This will automatically install dependencies as well as their dependencies.
 
